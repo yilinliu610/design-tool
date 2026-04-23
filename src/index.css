@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    color-scheme: dark;
+  }
+
+  body {
+    @apply bg-zinc-950 text-zinc-100 antialiased;
+    font-family: system-ui, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+}

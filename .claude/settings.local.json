@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5173)",
+      "Bash(node *)",
+      "Bash(npm install *)",
+      "Bash(npx vite *)",
+      "Bash(curl -s http://localhost:5173)",
+      "Bash(pkill -f \"vite\")"
+    ]
+  }
+}
